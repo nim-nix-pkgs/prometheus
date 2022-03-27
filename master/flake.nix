@@ -11,6 +11,7 @@
   inputs.src-prometheus-master.ref   = "refs/heads/master";
   inputs.src-prometheus-master.owner = "dom96";
   inputs.src-prometheus-master.repo  = "prometheus";
+  inputs.src-prometheus-master.dir   = "";
   inputs.src-prometheus-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
