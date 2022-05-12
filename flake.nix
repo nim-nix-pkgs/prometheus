@@ -7,6 +7,14 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
+  inputs."prometheus-master".dir   = "master";
+  inputs."prometheus-master".owner = "nim-nix-pkgs";
+  inputs."prometheus-master".ref   = "master";
+  inputs."prometheus-master".repo  = "prometheus";
+  inputs."prometheus-master".type  = "github";
+  inputs."prometheus-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."prometheus-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
