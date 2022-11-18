@@ -212,11 +212,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1668748996,
-        "narHash": "sha256-08/PuSzDLexVA9axjESF3GdyF04jQxNrpOwfBgSEO98=",
+        "lastModified": 1668754757,
+        "narHash": "sha256-c7P6AEe/3SZ7FLJ7/jHJq0it5h4G+fgUhc8G5TUEJ7M=",
         "owner": "nim-nix-pkgs",
         "repo": "prometheus",
-        "rev": "fd9e0fcacf1ed3ce3c951e285e65c81d388221af",
+        "rev": "d8e2432ce4f7c00939265b676500c4fc1df46097",
         "type": "github"
       },
       "original": {
